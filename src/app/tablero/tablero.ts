@@ -27,12 +27,12 @@ export class Tablero {
   filtro = signal('');
 
   productos = signal<Producto[]>([
-    { nombre: 'Yuca', precio: 2800, cantidad: 3 },
-    { nombre: 'Ñame', precio: 4200, cantidad: 2 },
-    { nombre: 'Plátano', precio: 1500, cantidad: 6 },
-    { nombre: 'Mango', precio: 1800, cantidad: 12 },
-    { nombre: 'Guayaba', precio: 1200, cantidad: 0 },
-  ]);
+  { nombre: 'Mango', precio: 1800, cantidad: 12 },
+  { nombre: 'Guayaba', precio: 1200, cantidad: 8 },
+  { nombre: 'Patilla', precio: 6500, cantidad: 2 },
+  { nombre: 'Maracuyá', precio: 3400, cantidad: 5 },
+  { nombre: 'Níspero', precio: 2900, cantidad: 4 },
+]);
 
   // ===========================================================================
   //  LOS VALORES DERIVADOS — computed()
